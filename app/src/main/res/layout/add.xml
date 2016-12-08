@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Adding a schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/sName"
+        android:hint="Schedule Name"
+        android:textSize="30sp"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/select"
+        android:id="@+id/textView"
+        android:textSize="25sp" />
+
+    <CheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Living Room"
+        android:id="@+id/checkedTextView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.36"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/itemName"
+        android:id="@+id/textView22"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/c"
+        android:hint="Curtains"
+        android:textSize="23sp"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/freq"
+        android:id="@+id/textView23"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/w"
+        android:hint="weekly"
+        android:textSize="22sp"
+        android:singleLine="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner13"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown"
+        android:entries="@array/daysOfWeek"
+        android:nestedScrollingEnabled="true"
+
+        android:dropDownSelector="#91da91"
+        android:layout_marginBottom="15sp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saveBtn"
+        android:id="@+id/saveBtn"
+        android:layout_gravity="right" />
+
+</LinearLayout>

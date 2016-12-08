@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="c7081.quickclean">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="com.orm.SugarApp">
+
+        <meta-data android:name="DATABASE" android:value="sugar_example.db"/>
+        <meta-data android:name="VERSION" android:value="2"/>
+        <meta-data android:name="QUERY_LOG" android:value="true"/>
+        <meta-data android:name="DOMAIN_PACKAGE" android:value="c7081.quickclean"/>
+
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreateSchedule.NewSched">
+        </activity>
+        <activity android:name=".EditSchedule.EditSched">
+        </activity>
+        <activity android:name=".ExportSched.ExportSched">
+        </activity>
+        <activity android:name=".Reminder.Reminder">
+        </activity>
+        <activity android:name=".CreateSchedule.ViewS">
+        </activity>
+
+    </application>
+
+</manifest>

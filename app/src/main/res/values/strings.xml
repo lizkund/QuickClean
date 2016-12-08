@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Quick Clean</string>
+    <string name="newBtn">New</string>
+    <string name="del">Delete</string>
+    <string name="exp">Export</string>
+    <string name="saveBtn">Save</string>
+    <string name="editBtn">Edit</string>
+    <string name="select">Select desired rooms</string>
+    <string name="list">Select Schedule</string>
+    <string name="room">Select Room</string>
+    <string name="itemName">Item Name</string>
+    <string name="freq">Frequency </string>
+    <string name="on">on</string>
+    <string name="time">Time</string>
+    <string name="cue">Cue</string>
+    <string name="email">Email</string>
+    <string name="ex">Export</string>
+    <string name="home">Home</string>
+
+    <string-array name="daysOfWeek">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="houses">
+        <item>Winter Cleaning</item>
+        <item>Spring Cleaning</item>
+        <item>Summer Cleaning</item>
+        <item>Autumn Cleaning</item>
+        <item>Jane\'s House</item>
+        <item>John\'s House</item>
+        <item>Georgina\'s House</item>
+    </string-array>
+    <array name="menu1">
+        <item id="edit">Edit</item>
+        <item id="delete">Delete</item>
+        <item id="export">Export</item>
+        <item id="remind">Remind</item>
+    </array>
+    <array name="room">
+        <item id="l">Living Room</item>
+        <item id="b">Bedroom</item>
+        <item id="k">Kitchen</item>
+        <item id="ba">Bathroom</item>
+    </array>
+    <array name="item">
+        <item id="c">Curtains</item>
+        <item id="be">Bedding</item>
+        <item id="ca">Carpet</item>
+        <item id="ch">Chairs</item>
+    </array>
+</resources>
